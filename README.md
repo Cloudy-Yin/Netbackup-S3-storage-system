@@ -1,4 +1,4 @@
-# Netbackup-S3-storage-system
+# S3-storage-system
 
 Netbackup-S3 separates "data" and "metadata" storage, files are split into chunks and stored in object storage like Amazon S3, 
 and the corresponding metadata can be stored in various databases such as Redis, MySQL, TiKV, SQLite, etc., based on the scenarios and requirements.
